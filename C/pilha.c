@@ -15,7 +15,7 @@ Pilha* criar_pilha(int tamanho)
       (*p).tamanho = tamanho;
       (*p).topo = -1;
       (*p).pilha = (int *)malloc(tamanho * sizeof(int));
-      if (p->pilha == NULL)
+      if ((*p).pilha == NULL)
       {
             printf("Erro ao alocar memória para os elementos da pilha.\n");
             free(p);
