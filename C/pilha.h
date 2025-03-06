@@ -3,7 +3,8 @@
 
 #include <stdbool.h>
 
-typedef struct {
+typedef struct 
+{
     int tamanho;
     int topo;
     int *pilha;
